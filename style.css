@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  height: 2000px;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px 60px;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: rgb(180, 33, 33);
+  display: flex;
+}
+
+#welcome-section .profil {
+  text-align: center;
+  margin: auto;
+}
+
+#welcome-section p {
+  padding: 10px 0;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.card img {
+  width: 350px;
+  height: 400px;
+}
+
+.card a {
+  background-color: grey;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+}
+
+.project-tile {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(147, 8, 247);
+}
+
+#profile-link {
+  background-color: grey;
+  display: block;
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.showproject {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(147, 8, 247);
+}
+
+#diatascontact {
+  background-color: black;
+  padding: 50px 0;
+}
+
+#diatascontact .diatascontact {
+  text-align: center;
+}
+
+#diatascontact p {
+  padding: 10px 0;
+}
+
+.contact {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact ul {
+  display: flex;
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+.contact ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px 60px;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  padding: 50px 50px;
+}
+
+footer .first {
+  flex: 2;
+}
+
+footer .second {
+  flex: 1;
+}
+
+@media (max-width: 550px) {
+  #navbar ul {
+    display: block;
+  }
+}
